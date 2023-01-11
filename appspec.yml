@@ -18,3 +18,4 @@ hooks:
     - location: app-stop.sh
       timeout: 300
       runas: root
+      
