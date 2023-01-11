@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash 
 yum -y update
 yum install -y ruby
 cd /home/ec2-user
