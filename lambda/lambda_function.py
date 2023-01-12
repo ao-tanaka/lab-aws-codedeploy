@@ -28,7 +28,7 @@ def lambda_handler(event, context):
     event = (
         service.events()
         .insert(
-            calendarId="f9ef0c49fac30617cc63be0a1387819006298c747f350ca0650dfd52279d5ea6@group.calendar.google.com",  # 設定>マイカレンダーの設定>カレンダーの等号>カレンダーID
+            calendarId="*****@group.calendar.google.com",  # 設定>マイカレンダーの設定>カレンダーの等号>カレンダーID
             body=event,
         )
         .execute()
