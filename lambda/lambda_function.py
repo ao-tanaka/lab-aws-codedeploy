@@ -6,7 +6,7 @@ import datetime
 def lambda_handler(event, context):
     scopes = ["https://www.googleapis.com/auth/calendar"]
     credentials = service_account.Credentials.from_service_account_file(
-        "novelocr-9f351a9d187a.json", scopes=scopes
+        "*****.json", scopes=scopes
     )  # jsonはgoogle cloud platformの鍵のダウンロードで落としたやつ
     service = discovery.build(
         "calendar", "v3", credentials=credentials, cache_discovery=False
