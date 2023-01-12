@@ -1,0 +1,1 @@
+python TemperatureAndHumidity.py --endpoint a1cj4houx6x6az-ats.iot.ap-northeast-1.amazonaws.com --rootCA ./certs/AmazonRootCA1.pem --cert ./certs/8cce04b7f331e28dfc66c1da716bfcd7fb80cc807726b0fc25804750595a4f8f-certificate.pem.crt --key  ./certs/8cce04b7f331e28dfc66c1da716bfcd7fb80cc807726b0fc25804750595a4f8f-private.pem.key
